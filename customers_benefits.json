@@ -1,0 +1,16 @@
+{
+  "httpRequest": {
+    "path": ".*/v3/customers/g_[0-9]+/benefits.*"
+  },
+  "httpResponse": {
+    "delay": {
+      "timeUnit": "SECONDS",
+      "value": 2
+    },
+    "statusCode": 200,
+    "headers": {
+      "content-type": ["application/json"]
+    },
+    "body": "{\"field\":\"value\"}"
+  }
+}
